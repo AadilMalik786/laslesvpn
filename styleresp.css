@@ -1,0 +1,233 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .mainPart-section {
+    flex-wrap: wrap-reverse;
+  }
+  h1::after {
+    content: " LaslesVPN.";
+    /* color: red; */
+    font-weight: 700;
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 25px;
+    font-weight: 500;
+    /* font-weight: bolder; */
+  }
+  .mainpart-first {
+    gap: 20px;
+  }
+  .main-part-paragraph {
+    line-height: 20px;
+  }
+  .mainpart-secondsection {
+    /* flex-wrap: wrap;  */
+    flex-direction: column;
+    gap: 20px;
+    height: inherit;
+  }
+  .location-parent {
+    justify-content: space-between;
+    width: inherit;
+    border: none;
+  }
+  .server-parent {
+    justify-content: space-between;
+    width: inherit;
+    border: none;
+  }
+  .user-parent {
+    justify-content: space-between;
+    width: inherit;
+    border: none;
+  }
+  .mainpart-thirdsection {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .list-tick-parent {
+    padding: 20px;
+    width: 500px;
+  }
+  .plan-parent p {
+    color: #4f5665;
+    font-size: 17px;
+  }
+  .plan-parent {
+    /* width: 740px; */
+    /* padding: 0 150px; */
+  }
+  .mainpart-fifth-section {
+    /* background-color: red; */
+    flex-wrap: wrap;
+    height: inherit;
+    width: inherit;
+    gap: 20px;
+  }
+  .fifthsection-division {
+    height: 650px;
+  }
+  .fifth-section-firstgroup {
+    margin-top: 20px;
+  }
+  .footer-ft {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    flex-direction: column;
+    height: inherit;
+    align-items: start;
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: center;
+  }
+  .eleven-heading-first {
+    font-size: 1.2rem;
+    width: 250px;
+  }
+  .subscribe-eleven-div {
+    width: 100px;
+  }
+  .subscribe-eleven-div button {
+    font-size: 13px;
+  }
+
+  /* ---------------------------------------hamburger------------------------------------ */
+
+  .navigation ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    height: 30px;
+    width: 30px;
+    /* background-color: red; */
+  }
+  .signin-button {
+    display: none;
+  }
+  .navigation {
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+  }
+  Header {
+    position: relative;
+  }
+  .hamburger-slider-parent {
+    display: none;
+    background-color: #0b132a;
+    height: 100vh;
+    width: 100vw;
+    /* width: 300px; */
+    position: absolute;
+    left: 0;
+    top: 90px;
+  }
+  .navigation .hamburger-slider-parent ul {
+    display: block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    /* transition-delay: ; */
+    color: white;
+  }
+  nav ul li a:hover {
+    /* pointer-events: none; */
+    color: white;
+  }
+  .list-hamburger {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 0 30px 0;
+    justify-content: space-between;
+    /* background-color: green; */
+    height: inherit;
+    /* align-items: center; */
+  }
+.hamburger-slider-parent .list-hamburger .ul-second{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 400px;
+    
+
+  }
+  .ul-second li:nth-child(5) {
+    position: relative; 
+    
+}
+
+.ul-second li:nth-child(5)::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid white; 
+    width: 150px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+    bottom: -20px; 
+}
+ 
+
+  .logo-flex {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-flex img {
+    /* background-color: white; */
+    height: inherit;
+    width: inherit;
+    filter: brightness(10);
+    color: white;
+  }
+
+  .social-logo-parent {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 639px) {
+  .subscribe-eleven-div {
+    width: 200px;
+  }
+  .eleven-heading-first {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    /* width: 60%; */
+    width: 300px;
+  }
+  .heading-subscribe-child {
+    /* background-color: green; */
+    display: flex;
+    height: inherit;
+    width: inherit;
+    flex-direction: column;
+  }
+  .eleven-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 486px) {
+  .frame {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .customer-1 {
+    min-width: 300px;
+  }
+  .nine-section-container {
+    width: 300px;
+  }
+}

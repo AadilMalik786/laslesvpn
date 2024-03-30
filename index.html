@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nesles Vpn</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleresp.css">
     <style></style>
   </head>
   <body>
@@ -19,17 +20,39 @@
               alt="LeslesVpn"
           /></a>
         </div>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Testimonials</a></li>
-          <li><a href="">Help</a></li>
+        <ul class="ul-first">
+          <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+          <li><a href="#feature">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#help">Help</a></li>
         </ul>
         <div class="signin-button">
           <div class="first-signin">Sign In</div>
           <button class="second-signup">Sign Up</button>
         </div>
+        <div class="hamburger">
+          <img src="https://laslesvpn-landing.netlify.app/images/bars-solid.svg"  alt="">
+        </div>
+        <div class="hamburger-slider-parent">
+              <div class="list-hamburger">
+                <ul class="ul-second">
+                  <li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+                  <li><a href="#feature">Features</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#help">Help</a></li>
+                  <li><a href="">Sign In</a></li>
+                  <li><a href="">Sign Up</a></li>
+                </ul>
+                <div class="social-logo-parent">
+                  <div class="logo-flex"><img src="https://laslesvpn-landing.netlify.app/images/facebook-f-brands.svg" alt=""></div>
+                  <div class="logo-flex"><img src="https://laslesvpn-landing.netlify.app/images/twitter-brands.svg" alt=""></div>
+                  <div class="logo-flex"><img src="https://laslesvpn-landing.netlify.app/images/instagram-brands.svg" alt=""></div>
+                </div>
+              </div>
+        </div>
+    
       </nav>
     </header>
     <main>
@@ -84,23 +107,23 @@
               alt=""
             />
           </div>
-          <div class="loc-ser-user-number">
+          <div id="about" class="loc-ser-user-number">
             <div class="number-positive">90+</div>
             <div>Users</div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section  id="feature">
         <div class="mainpart-thirdsection">
-          <div>
+          <div >
             <img
               src="https://laslesvpn-landing.netlify.app/images/illustration-2.svg"
               alt=""
             />
           </div>
           <div class="list-tick-parent">
-            <h2>We Provide Many Features You Can Use</h2>
+            <h2 >We Provide Many Features You Can Use</h2>
             <p class="sub-heading">
               You can explore the features that we provide with fun and have
               their own functions each feature.
@@ -140,13 +163,13 @@
                     alt=""
                   />
                 </div>
-                <p>No specific time limits.</p>
+                <p id="pricing">No specific time limits.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="mainpart-fourthsection">
+      <section  class="mainpart-fourthsection">
         <div class="plan-parent">
           <h2>Choose Your Plan</h2>
           <p>
@@ -369,8 +392,8 @@
               alt=""
             />
           </div>
-          <div class="image-controller">
-            <img
+          <div  class="image-controller">
+            <img id="testimonials"
               src="https://laslesvpn-landing.netlify.app/images/spotify-logo.png"
               width="100%"
               alt=""
@@ -378,7 +401,7 @@
           </div>
         </div>
       </section>
-      <section class="eight-section-container">
+      <section  class="eight-section-container">
         <div>Trusted by Thousands of Happy Customer</div>
         <p>
           These are the stories of our customers who have joined us with great
@@ -477,16 +500,10 @@
               LaslesVPN always the best”.
             </p>
           </div>
-         
-          
         </section>
       </section>
       <section class="tenth-section-container">
-        <div class="three-dots-parent">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-        </div>
+        <div class="three-dots-parent"></div>
         <div class="arrow-parents">
           <div class="arrow-left" id="left">
             <img
@@ -502,8 +519,120 @@
           </div>
         </div>
       </section>
+      <section id="help" class="eleven-section-container">
+        <div class="heading-subscribe">
+          <div class="heading-subscribe-child">
+            <div class="eleven-parent">
+              <div class="eleven-heading-first">
+                Subscribe Now for Get Special Features!
+              </div>
+              <p>Let's subscribe with us and find the fun.</p>
+            </div>
+            <div class="subscribe-eleven-div">
+              <button>Subscribe Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <section class="footer-ft">
+        <div class="footer-parent">
+        <div>
+          <!-- <div> -->
+          <img
+            src="https://laslesvpn-landing.netlify.app/images/logo.svg"
+            alt=""
+          />
+        </div>
+        <p>
+          LaslesVPN is a private virtual network that has unique features and
+          has high security.
+        </p>
+        <div class="social-icons-parent-class">
+          <div class="social-icons">
+            <img
+              src="https://laslesvpn-landing.netlify.app/images/facebook-f-brands.svg"
+              alt=""
+            />
+          </div>
+          <div class="social-icons">
+            <img
+              src="https://laslesvpn-landing.netlify.app/images/twitter-brands.svg"
+              alt=""
+            />
+          </div>
+          <div class="social-icons">
+            <img
+              src="https://laslesvpn-landing.netlify.app/images/instagram-brands.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div>© 2020 LaslesVPN</div>
+      </div>
+
+        <!-- </div> -->
+        <div class="product-parent">
+          <ul >
+            <li>Product</li>
+            <li>
+              <a href="#">Download</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Locations</a>
+            </li>
+            <li>
+              <a href="#">Server</a>
+            </li>
+            <li>
+              <a href="#">Countries</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-parent">
+          <ul>
+            <li>Engage</li>
+            <li>
+              <a href="#">LaslesVPN ?</a>
+            </li>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Tutorials</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+        <div class="product-parent-third">
+          <ul>
+            <li>Earn Money</li>
+            <li>
+              <a href="#">Affiliate</a>
+            </li>
+            <li>
+              <a href="#">Become Partner</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
