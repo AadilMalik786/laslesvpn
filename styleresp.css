@@ -110,11 +110,10 @@
   }
   .navigation {
     justify-content: space-between;
+    /* background-color: red; */
     padding: 0 10px 0 10px;
   }
-  Header {
-    position: relative;
-  }
+  
   .hamburger-slider-parent {
     display: none;
     background-color: #0b132a;
