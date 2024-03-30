@@ -5,11 +5,11 @@
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body{
   height: 100vh;
-  /* padding: 0 50px; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 Header {
   background-color: white;
