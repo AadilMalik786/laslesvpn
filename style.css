@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
@@ -10,6 +9,7 @@ body{
   height: 100vh;
   overflow-x: hidden;
   /* overflow-x: hidden; */
+  /* background-color: red; */
 }
 Header {
   background-color: white;
@@ -19,6 +19,7 @@ Header {
   justify-content: center;
   position: fixed;
   width: 100%;
+  /* overflow-x: hidden; */
 }
 .hamburger-slider-parent{
   display: none;
