@@ -234,3 +234,31 @@
     width: 300px;
   }
 }
+
+@media screen and (min-width:320px) and (max-width:564px) {
+
+  .sixth-section-container p{
+    /* background-color: red; */
+    width: 320px;
+  }
+  .sixth-section-container div{
+    font-size: 25px;
+    width: 320px;
+  }
+
+  .eight-section-container p{
+    /* background-color: green; */
+    width: 300px;
+    text-align: center;
+  }
+
+  .eight-section-container div{
+    font-size: 25px;
+    width: 310px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+  
+}

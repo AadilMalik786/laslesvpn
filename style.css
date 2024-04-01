@@ -449,6 +449,7 @@ justify-content: flex-end;
   justify-content: center;
   gap: 20px;
 }
+
 .eight-section-container p{
   /* background-color: green; */
   width: 500px;
