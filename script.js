@@ -232,9 +232,10 @@ else{
 }
 }
 function remove(){
-  hamburgerContainer.style.display="none"
+  hamburgerContainer.style.transform="translate(100%)";
   document.body.style.overflow = 'scroll';
   console.log("remove");
+  toggle=false;
 }
 hamburger.addEventListener("click",add)
 // nav.addEventListener("click",remove)
