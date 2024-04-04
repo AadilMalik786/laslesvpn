@@ -115,14 +115,16 @@
   }
   
   .hamburger-slider-parent {
-    display: none;
+    display: block;
     background-color: #0b132a;
     height: 100vh;
     width: 100vw;
     /* width: 300px; */
     position: absolute;
     z-index: 50;
-    left: 0;
+    left: 100%;
+    /* transform: translate(-100%); */
+    transition: all 0.5s linear;
     top: 90px;
   }
   .navigation .hamburger-slider-parent ul {

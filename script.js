@@ -221,12 +221,12 @@ console.log(nav);
 let toggle =false
 function add(){
   if(!toggle){
-  hamburgerContainer.style.display="block";
+  hamburgerContainer.style.transform="translate(-100%)";
   document.body.style.overflow = 'hidden';
   toggle=true;
 }
 else{
-  hamburgerContainer.style.display="none";
+  hamburgerContainer.style.transform="translate(100%)";
   document.body.style.overflow = 'scroll';
   toggle=false
 }
